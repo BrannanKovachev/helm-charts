@@ -1,9 +1,0 @@
-dependencies:
-- name: victoria-metrics-common
-  repository: https://victoriametrics.github.io/helm-charts
-  version: 0.0.33
-- name: victoria-metrics-k8s-stack
-  repository: https://victoriametrics.github.io/helm-charts
-  version: 0.28.4
-digest: sha256:40de29ec821d947966f624ed58c77d1ae7f4fa4baca7f4792f5e25cdab5a351e
-generated: "2024-11-28T14:50:41.889015588Z"
