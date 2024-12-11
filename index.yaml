@@ -1,0 +1,90 @@
+apiVersion: v1
+entries:
+  victoria-metrics-cluster:
+  - annotations:
+      artifacthub.io/category: monitoring-logging
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Sources
+          url: https://github.com/VictoriaMetrics/helm-charts/tree/master/charts/victoria-metrics-cluster
+        - name: Charts repo
+          url: https://victoriametrics.github.io/helm-charts/
+        - name: Docs
+          url: https://docs.victoriametrics.com/cluster-victoriametrics
+    apiVersion: v2
+    appVersion: v1.107.0
+    created: "2024-12-10T20:02:54.781315688-06:00"
+    dependencies:
+    - name: victoria-metrics-common
+      repository: https://victoriametrics.github.io/helm-charts
+      version: 0.0.*
+    description: Victoria Metrics Cluster version - high-performance, cost-effective
+      and scalable TSDB, long-term remote storage for Prometheus
+    digest: 69cea6519cec718f76b60f348434d9ecc1955ab1c226910601660fd3eff6be25
+    home: https://github.com/VictoriaMetrics/helm-charts
+    icon: https://avatars.githubusercontent.com/u/43720803?s=200&v=4
+    keywords:
+    - victoriametrics
+    - vmcluster
+    - vmselect
+    - vminsert
+    - vmstorage
+    - tsdb
+    - monitoring
+    - kubernetes
+    - observability
+    - metrics
+    - metricsql
+    - timeseries
+    kubeVersion: '>=1.25.0-0'
+    name: victoria-metrics-cluster
+    sources:
+    - https://github.com/VictoriaMetrics/helm-charts
+    type: application
+    urls:
+    - https://brannankovachev.github.io/helm-charts/charts/victoria-metrics-cluster-0.15.1.tgz
+    version: 0.15.1
+  - annotations:
+      artifacthub.io/category: monitoring-logging
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Sources
+          url: https://github.com/VictoriaMetrics/helm-charts/tree/master/charts/victoria-metrics-cluster
+        - name: Charts repo
+          url: https://victoriametrics.github.io/helm-charts/
+        - name: Docs
+          url: https://docs.victoriametrics.com/cluster-victoriametrics
+    apiVersion: v2
+    appVersion: v1.107.0
+    created: "2024-12-10T20:02:54.773124325-06:00"
+    dependencies:
+    - name: victoria-metrics-common
+      repository: https://victoriametrics.github.io/helm-charts
+      version: 0.0.*
+    description: Victoria Metrics Cluster version - high-performance, cost-effective
+      and scalable TSDB, long-term remote storage for Prometheus
+    digest: 26c92b3b2515e3623e1636441eaf9c2ea3a5b50415191ef47b90f4bd0812de9a
+    home: https://github.com/VictoriaMetrics/helm-charts
+    icon: https://avatars.githubusercontent.com/u/43720803?s=200&v=4
+    keywords:
+    - victoriametrics
+    - vmcluster
+    - vmselect
+    - vminsert
+    - vmstorage
+    - tsdb
+    - monitoring
+    - kubernetes
+    - observability
+    - metrics
+    - metricsql
+    - timeseries
+    kubeVersion: '>=1.25.0-0'
+    name: victoria-metrics-cluster
+    sources:
+    - https://github.com/VictoriaMetrics/helm-charts
+    type: application
+    urls:
+    - https://brannankovachev.github.io/helm-charts/charts/victoria-metrics-cluster-0.15.0.tgz
+    version: 0.15.0
+generated: "2024-12-10T20:02:54.765876495-06:00"
