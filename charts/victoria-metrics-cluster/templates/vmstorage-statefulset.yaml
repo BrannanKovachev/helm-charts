@@ -272,5 +272,9 @@ spec:
         {{- with $app.persistentVolume.storageClassName }}
         storageClassName: {{ ternary "" . (eq "-" .) }}
         {{- end }}
+        {{- if $app.persistentVolume.selector.enabled }}
+        selector:
+          matchLabels: {{- toYaml $app.persistentVolume.selector.matchLabels | nindent 12 }}
+        {{- end }}
   {{- end }}
 {{- end }}

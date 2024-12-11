@@ -956,6 +956,12 @@ vmstorage:
     storageClassName: ""
     # --  Existing Claim name. Requires vmstorage.persistentVolume.enabled: true. If defined, PVC must be created manually before volume will be bound
     existingClaim: ""
+    
+    selector:
+      # -- Enable label selector for PVCs to bind to specific PVs
+      enabled: false
+      # -- Labels to match PVs. All key/value pairs must match for binding to occur
+      matchLabels: {}
 
     # -- Data root path. Vmstorage data Persistent Volume mount root path
     mountPath: /storage
